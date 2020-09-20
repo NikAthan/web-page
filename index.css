@@ -178,11 +178,12 @@ body {
 
     #mainNavbar .navbar-brand {
     	font-size: 17px;
-	margin-left: 0;
+    	margin-left: 0;
     }
 
     #mainNavbar .dream {
     	display: none;
+	
     }
 
     #mainNavbar .navbar-toggler {
