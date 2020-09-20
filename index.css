@@ -165,6 +165,69 @@ body {
 	font-family: "Avenir";
 }
 
+@media (max-width: 800px) {
+    .movebg h1 {
+        font-weight: 100;
+        font-size: 20px;
+        padding-top: 250px;
+    }
+
+    .movebg {
+    	background-size: 150% 150%;
+    }
+
+    #mainNavbar .navbar-brand {
+    	font-size: 17px;
+    }
+
+    #mainNavbar .dream {
+    	display: none;
+    }
+
+    #mainNavbar .navbar-toggler {
+    	margin-right: 0;
+    }
+
+    #mainNavbar .navbar-nav .nav-link {
+    	font-size: 20px;
+    	padding-bottom: 13px;
+    }
+
+    .first #txtleft {
+    	font-size: 11px;
+    }
+
+    .first #txtblue {
+    	font-size: 20px;
+    }
+
+    .first #txt {
+    	font-size: 11px;
+    }
+
+    .first #myBtn {
+    	font-size: 12px;
+    	margin-left: 42%;
+    }
+
+    .second #txtblue {
+    	font-size: 20px;
+    }
+
+    .second #txt {
+    	font-size: 11px;
+    }
+
+    .second #Btn2 {
+    	font-size: 12px;
+    	margin-left: 42%;
+    }
+
+    .footer .container-fluid {
+    	display: none;
+    }     
+}
+
 @keyframes shrink {
   0% {
     background-size: 110% 110%;
@@ -345,4 +408,12 @@ i {
 	margin-bottom: 20px;
 	font-family: "Avenir";
 	font-weight: 500;
+}
+
+@media (max-width: 800px) {
+
+	.boxes p {
+		border-style: none;
+		width: 100%;
+	}
 }
