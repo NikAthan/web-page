@@ -178,6 +178,7 @@ body {
 
     #mainNavbar .navbar-brand {
     	font-size: 17px;
+	margin-left: 0;
     }
 
     #mainNavbar .dream {
